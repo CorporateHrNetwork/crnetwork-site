@@ -3,6 +3,7 @@ import {createRoot} from 'react-dom/client';
 import {motion} from 'framer-motion';
 import {FiArrowUpRight,FiMail,FiPhone,FiMapPin,FiMenu} from 'react-icons/fi';
 import './styles.css';
+import './zermatt-motion.css';
 const fade={hidden:{opacity:0,y:24},show:{opacity:1,y:0,transition:{duration:.55}}};
 const networks=[
  {tag:'PEOPLE SOLUTIONS',title:'CorporateHr Network',copy:'Human resources, recruitment, training, workforce administration and HR technology.',href:'https://corporatehr.crnetwork.com.ng/',cta:'Visit CorporateHr'},
