@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CHRiS Secure Backup Privacy Notice | Corporate Resources Network</title>
+<meta name="description" content="Privacy notice for the CHRiS Secure Backup Google Drive integration.">
+<style>:root{color-scheme:light}body{margin:0;background:#f7f8fa;color:#1f2937;font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}header{background:#0b6b3a;color:white;padding:20px max(20px,calc((100vw - 900px)/2))}header a{color:#f6df9c}main{max-width:900px;margin:46px auto 65px;padding:0 24px}h1{line-height:1.2;color:#0b6b3a;font-size:2.1rem}h2{margin-top:32px;color:#0b6b3a;font-size:1.22rem}a{color:#086a42}aside{border-left:4px solid #c89b2c;background:white;padding:14px 19px;margin:22px 0}footer{padding:24px;text-align:center;border-top:1px solid #d9dfdf}small{opacity:.84}</style></head><body>
+<header><strong>Corporate Resources Network</strong> · <a href="/chris-secure-backup.html">CHRiS Secure Backup</a></header>
+<main><h1>CHRiS Secure Backup — Privacy Notice</h1>
+<p><strong>Effective date:</strong> 11 October 2026</p>
+<p>This notice applies to the CHRiS Secure Backup utility operated by CorporateHr Network, part of Corporate Resources Network. It addresses our use of Google Drive in connection with encrypted database backups. It is not a general privacy policy for every Corporate Resources Network service.</p>
+<h2>1. Information the utility accesses</h2>
+<p>An authorised administrator grants Google Drive permissions through Google OAuth. rclone may receive information necessary to authenticate and interact with Drive, including OAuth credentials, file identifiers, filenames, metadata, and encrypted file content needed to verify or retrieve backups. The requested Google Drive scope may technically allow broader file access; our configured backup workflows are limited to the dedicated CHRiS backup folder.</p>
+<h2>2. How information is used</h2>
+<p>We use this access to upload encrypted backup archives, list or identify backup archives, verify their integrity, retrieve archives for authorised recovery, and manage the relevant backup files. Google Drive data is not used for advertising, sale, user profiling, or unrelated marketing.</p>
+<h2>3. HR and payroll records in backups</h2>
+<p>The source PostgreSQL database may contain personal and employment information, including HR and payroll records. Backup files are encrypted with GPG AES-256 before upload to Google Drive. The decryption passphrase is held separately from the Google Drive backup folder; it is not placed in the encrypted archive. Recoveries are performed only for authorised operational needs.</p>
+<h2>4. Storage, security and retention</h2>
+<p>Encrypted backup archives are stored in the authorised organisation's dedicated Google Drive account and folder. Administrative credentials and backup decryption material are restricted to approved administrators. Backups are retained for disaster recovery until removed according to the organisation's backup retention arrangements. Deleting a backup from Google Drive or revoking the OAuth grant restricts future access; separately retained copies must be handled independently.</p>
+<h2>5. Disclosure and service providers</h2>
+<p>Google Drive provides encrypted backup storage, and rclone is used as a transfer utility. We do not sell Google user data or disclose it to advertisers. Access may be provided to authorised service administrators as necessary for backup operations, incident response, legal obligations, or recovery.</p>
+<h2>6. Your choices and contact</h2>
+<p>The Google account owner may review or revoke the utility's access at any time through their Google Account's third-party connections and may request deletion of the backup files subject to applicable operational, contractual, and legal retention obligations. Questions or concerns can be sent to <a href="mailto:corporatehr@crnetwork.com.ng">corporatehr@crnetwork.com.ng</a>.</p>
+<h2>7. Google API data-use commitments</h2>
+<p>We limit our use and transfer of information received from Google APIs to the activities described here, consistently with the Google API Services User Data Policy, including applicable Limited Use requirements.</p>
+<h2>8. Updates</h2>
+<p>We may update this notice if the backup utility, its permissions, storage arrangements, or practices change. An updated notice will be posted at this URL with a revised effective date.</p>
+<aside><a href="/chris-secure-backup.html">Return to CHRiS Secure Backup overview</a></aside>
+</main><footer>© 2026 Corporate Resources Network · <a href="https://crnetwork.com.ng/">Main website</a></footer></body></html>
