@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CHRiS Secure Backup | Corporate Resources Network</title>
+<meta name="description" content="Information about the internal encrypted database backup service for CHRiS by CorporateHr Network.">
+<style>:root{color-scheme:light}body{margin:0;background:#f7f8fa;color:#1f2937;font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}header{background:#0b6b3a;color:white;padding:20px max(20px,calc((100vw - 900px)/2))}header a{color:#f6df9c}main{max-width:900px;margin:46px auto 65px;padding:0 24px}h1{line-height:1.2;color:#0b6b3a;font-size:2.1rem}h2{margin-top:32px;color:#0b6b3a;font-size:1.22rem}a{color:#086a42}aside{border-left:4px solid #c89b2c;background:white;padding:14px 19px;margin:22px 0}footer{padding:24px;text-align:center;border-top:1px solid #d9dfdf}small{opacity:.84}</style></head><body>
+<header><strong>Corporate Resources Network</strong> · <a href="https://crnetwork.com.ng/">Main website</a></header>
+<main><p style="color:#0b6b3a;font-weight:700;letter-spacing:.08em">CORPORATEHR NETWORK · CHRiS</p>
+<h1>CHRiS Secure Backup</h1>
+<p>CHRiS Secure Backup is an internal disaster-recovery utility operated by CorporateHr Network, a service of Corporate Resources Network. It protects the CHRiS human resources and payroll platform used by an authorised client, including Zermatt Liquor Limited.</p>
+<h2>What it does</h2>
+<p>The utility exports the authorised CHRiS PostgreSQL database, encrypts the backup on the originating computer using GPG AES-256, and stores the resulting encrypted backup file in a dedicated Google Drive folder controlled by an authorised administrator. It reads encrypted files when checking backup integrity and supports restoration into a separate recovery environment.</p>
+<h2>Why Google Drive access is requested</h2>
+<p>The backup utility uses rclone to request Google Drive access. The Google permission can permit access to files beyond the backup folder, but the configured backup workflow is designed to operate only in the dedicated CHRiS backup folder. We do not use Drive contents for marketing, profiling, or advertising.</p>
+<aside><strong>Privacy and controls.</strong> Read the <a href="/chris-backup-privacy.html">CHRiS Secure Backup privacy notice</a> to learn what data is accessed, how encrypted backups are used, and how permissions can be revoked.</aside>
+<h2>Who can use it</h2>
+<p>This is an administrative utility, not a public upload service. Access is restricted to authorised administrators acting for the relevant organisation.</p>
+<h2>Contact</h2>
+<p>For questions about this utility or a request concerning its Google Drive access, email <a href="mailto:corporatehr@crnetwork.com.ng">corporatehr@crnetwork.com.ng</a>.</p>
+</main><footer>© 2026 Corporate Resources Network · <a href="/chris-backup-privacy.html">Privacy notice</a></footer></body></html>
